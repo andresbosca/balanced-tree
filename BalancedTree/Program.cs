@@ -12,6 +12,12 @@ foreach (int data in MockData.EntryData)
 Console.Write("]");
 Console.WriteLine("");
 
+Console.WriteLine("");
 Console.WriteLine("In-order traversal of the constructed AVL tree is:");
 tree.InOrder(root);
+
+Console.WriteLine("");
+Console.WriteLine("");
+
+Console.WriteLine("Tree structure:");
 AVLTree.PrintTree(root);

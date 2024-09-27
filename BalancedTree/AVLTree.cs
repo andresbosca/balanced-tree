@@ -114,7 +114,7 @@ public class AVLTree
         }
 
         InOrder(root.Left);
-        Console.WriteLine(root.Key + " ");
+        Console.Write(root.Key + " ");
         InOrder(root.Right);
     }
 
